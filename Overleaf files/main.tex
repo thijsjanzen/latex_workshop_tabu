@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{TABU Latex Workshop}
+\author{Thijs Janzen}
+\date{June 14th 2024}
+
+\begin{document}
+
+% \maketitle
+
+\section{Introduction}
+
+Welcome to the TABU LateX Workshop. \\
+We can \textbf{emphasize} \textit{\textbf{important}} words easily.
+
+
+\section{Object}
+\subsection*{Figures}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics{TABU.jpeg}
+    \caption{The 44th edition of the TABU dag will take place on 13-14th of June.}
+    \label{fig:tabu_dag_figure}
+\end{figure}
+
+\subsection*{Tables}
+
+\begin{table}[]
+    \centering
+    \begin{tabular}{|l|c|r|}
+    \hline
+    Education & Experienced & Novice \\
+    \hline \hline
+        PhD & 5 & 10 \\
+    \hline
+        post-Doc & 3 & 1 \\
+    \hline
+
+    \end{tabular}
+    \caption{Data from the Workshop}
+    \label{tab:my_table}
+\end{table}
+
+\section{Crossreferencing}
+
+You can see the overview of the results in table \ref{tab:my_table}.
+
+\end{document}
